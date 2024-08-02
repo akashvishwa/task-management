@@ -1,0 +1,45 @@
+
+
+tbl_UserType
+Id
+Name 
+----> employee, manager, admin
+
+
+tbl_Users
+Id - Guid
+Name - 
+Email -
+UserType -
+Password - Bcrypt Hash
+ManagerId-guid
+
+
+Todo
+Id
+Name
+Description
+EmployeeId 
+StatusId
+EndingDate
+Notes:string
+
+TodoComments
+Id
+Comment
+
+TodoStatus
+Pending
+Ongoing
+Completed
+
+
+TodoDocumentMapper
+Id
+TaskId
+FileId
+
+FileUploadTable
+InfoOfFiles
+
+
